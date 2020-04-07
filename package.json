@@ -1,0 +1,14 @@
+{
+  "name": "sass_portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio with Sass",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "Joshua Coutinho",
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
